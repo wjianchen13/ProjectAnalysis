@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="phive_menu_size">44dp</dimen>
+    <dimen name="phive_candy_bmsize">@dimen/phive_menu_size</dimen>
+    <dimen name="phive_freegift_circle_width">1.5dp</dimen>
+    <dimen name="phive_candy_size">90dp</dimen>
+
+    <dimen name="phive_bubble_shortcut_offsetY">50dp</dimen>    <!-- 糖果距离快捷送礼 -->
+    <dimen name="phive_bubble_shortcut_offsetY2">50dp</dimen>    <!-- 没有暖场时糖果距离快捷送礼 -->
+
+    <dimen name="phive_bubble_vir_width">130dp</dimen>
+    <dimen name="phive_bubble_vir_heigh">200dp</dimen>
+    <dimen name="phive_bubble_verticalPathLen">90dp</dimen>     <!-- 顶部垂直向下的路劲高度 -->
+    <dimen name="phive_bubble_ctr_len">30dp</dimen>
+    <dimen name="phive_bubble_origin_offsetY">7dp
+    </dimen>   <!-- 距离原始出生地(糖果提供)多少高度的偏移量开始冒泡(实际出生地) -->
+    <dimen name="phive_bubble_origin_offsetY_default">10dp</dimen>   <!-- 默认偏移实际出生地y距离 -->
+    <dimen name="phive_bubble_control_offsetY">35dp</dimen>     <!-- 距离实际出生地多少偏移量进入控制点区域 -->
+
+    <dimen name="phive_menu_padding_top">8dp</dimen>
+    <dimen name="phive_menu_padding_bottom">15dp</dimen>
+
+    <dimen name="phive_bubble_size">35dp</dimen>
+
+</resources>
+

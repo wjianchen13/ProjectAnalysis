@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flyt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F4FF"
+    android:scrollbars="none">
+
+    <EditText
+        android:id="@+id/edtv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ff00ff00"
+        android:layout_above="@id/edtv_test"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="     aksdfjkaskjdf"/>
+
+</RelativeLayout>

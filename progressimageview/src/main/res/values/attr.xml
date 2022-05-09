@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="progressColor" format="color" />
+    <attr name="progressWidth" format="dimension" />
+    <attr name="progressSpeed" format="integer" />
+
+    <declare-styleable name="CustomProgressImageView">
+        <attr name="progressColor" />
+        <attr name="progressWidth" />
+        <attr name="progressSpeed" />
+    </declare-styleable>
+
+</resources>

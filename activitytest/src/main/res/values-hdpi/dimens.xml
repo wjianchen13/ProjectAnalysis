@@ -1,0 +1,578 @@
+<resources>
+
+
+    <dimen name="f16_anim_rocket_height">210dp</dimen>
+
+    <integer name="aircraft_anim_y_height">180</integer>
+    <integer name="f16_anim_y_height">180</integer>
+
+    <dimen name="anim_520_heart_mg_top">200dp</dimen>
+
+    <integer name="car_anim_start_height3">310</integer>
+    <integer name="car_anim_start_height2">240</integer>
+    <integer name="car_anim_start_height">180</integer>
+    <dimen name="market_title_text_size_12sp">10sp</dimen>
+    <dimen name="gift999_tween_margin">390dp</dimen>
+    <dimen name="gift520_tween_margin">400dp</dimen>
+    <dimen name="inform_btn_margin">44dp</dimen>
+
+    <integer name="live_hall_ph_width">200</integer>
+    <integer name="live_hall_ph_height">150</integer>
+
+    <dimen name="dynamic_send_gift_avatar_size">70dp</dimen>
+    <dimen name="live_off_margin_top">15dp</dimen>
+    <dimen name="gift_send_nickname_size">13sp</dimen>
+    <dimen name="arrow_gift_tween_margin">320dp</dimen>
+    <dimen name="heart_gift_tween_margin">90dp</dimen>
+    <dimen name="ten_gift_tween_margin">240dp</dimen>
+    <dimen name="grab_chair_tx_size">13sp</dimen>
+    <dimen name="nickname_tx_size">10sp</dimen>
+    <dimen name="live_hall_anchor_name_size">13sp</dimen>
+    <dimen name="quick_tool_size">14sp</dimen>
+    <dimen name="title_bar_goback">13sp</dimen>
+    <dimen name="box_right_left_margin">12dp</dimen>
+    <!-- 最近访问 -->
+
+    <!-- 直播间快速聊天框适配 -->
+    <dimen name="fast_chat_width">90dp</dimen>
+
+    <integer name="fast_chat_popupOffsetX">8</integer>
+    <integer name="fast_chat_popupOffsetY">49</integer>
+
+    <!-- 主播周星礼物排行 -->
+    <dimen name="week_gift_rank_padding_top">8dp</dimen>
+    <dimen name="week_gift_rank_current">14sp</dimen>
+    <dimen name="week_gift_rank_name">16sp</dimen>
+
+    <!-- kkLive list item size -->
+    <dimen name="about_text_show">13sp</dimen>
+    <dimen name="live_ll_dend_gift_marginbottom">80dp</dimen>
+    <dimen name="live_input_chater_w">170dp</dimen>
+    <dimen name="live_input_chater_pop_left">10dp</dimen>
+
+    <integer name="rom_tab_font_size">16</integer>
+    <integer name="tab_count_font_size">12</integer>
+
+    <dimen name="live_gift_dimen">269dp</dimen>
+    <dimen name="live_chat_text_dimen">14sp</dimen>
+    <dimen name="live_chat_gap_dimen">47dp</dimen>
+    <dimen name="more_item_left_margin">15dp</dimen>
+    <dimen name="more_item_txt_left_margin">10dp</dimen>
+    <dimen name="more_item_txtmargin_right">5dp</dimen>
+
+    <!-- 点歌台 -->
+    <dimen name="anchor_song_state_item">12sp</dimen>
+    <dimen name="anchor_song_state_name">12sp</dimen>
+    <!-- 发送广播布局适配 -->
+
+    <integer name="live_room_input_edit_left">21</integer>
+
+    <!-- 通用对话框 -->
+    <dimen name="normal_dialog_ok">16sp</dimen>
+    <!-- 退出提示对话框 -->
+    <dimen name="dialog_text_url">21sp</dimen>
+    <!-- 礼包对话框 -->
+    <!-- 更多 -->
+    <dimen name="bar_height">36dp</dimen>
+    <dimen name="sliding_menu_title">17sp</dimen>
+    <dimen name="more_item_textsize">15sp</dimen>
+    <dimen name="more_item_small_to_big">13sp</dimen>
+    <dimen name="more_item_sub_marginright">20dp</dimen>
+    <dimen name="about_line_margin_left">73dp</dimen>
+    <dimen name="more_setting_about_version">10sp</dimen>
+    <dimen name="more_setting_about_us">12sp</dimen>
+    <dimen name="more_setting_btn_destory">16sp</dimen>
+    <dimen name="more_item_btn_setting">7dp</dimen>
+    <!-- 抽奖 -->
+    <dimen name="lottery_text_explain">12sp</dimen>
+
+    <!-- listview_item -->
+    <dimen name="live_select_song_padding">6dp</dimen>
+    <!-- 车市 -->
+
+
+    <dimen name="car_store_car_name">14sp</dimen>
+
+    <integer name="car_store_buy_padding">9</integer>
+    <!-- vip -->
+    <dimen name="vip_ok_text_size">16sp</dimen>
+
+    <!-- game -->
+    <dimen name="game_detail_game_info_text_size">12sp</dimen>
+
+    <!-- 个人档案 -->
+    <dimen name="tv_create_photo_title">16sp</dimen>
+    <dimen name="et_photo_name">16sp</dimen>
+
+    <!-- 520偏移 -->
+    <string name="five_offsetscale">0.6</string>
+
+    <integer name="five_offsetwidth">-60</integer>
+    <integer name="five_offsetheight">-15</integer>
+    <!-- 999偏移 -->
+    <string name="nine_offsetscale">0.55</string>
+
+    <integer name="nine_offsetwidth">-40</integer>
+    <integer name="nine_offsetheight">20</integer>
+    <!-- 心形偏移 -->
+    <integer name="heart_gift_size">25</integer>
+
+    <string name="hoffsetscale">1.2</string>
+
+    <integer name="hoffsetwidth">-165</integer>
+
+    <!-- V形偏移 -->
+
+    <string name="voffsetscale">0.8</string>
+
+    <integer name="voffsetwidth">-30</integer>
+
+    <!-- 箭穿心形偏移 -->
+    <integer name="pierce_heart_gift_size">22</integer>
+
+    <string name="aoffsetscale">0.7</string>
+
+    <integer name="aoffsetwidth">-30</integer>
+
+    <!-- LOVE形偏移 -->
+    <integer name="love_gift_size">15</integer>
+
+    <string name="loffsetscale">0.7</string>
+
+    <integer name="loffsetwidth">-26</integer>
+
+    <!-- 五个礼物动画 -->
+    <integer name="five_gift_size">50</integer>
+
+    <!-- 动态 -->
+    <integer name="aynamic_attend_padding">7</integer>
+    <!-- 动态关注按钮字体 -->
+    <dimen name="aynamic_attend_button_textsize">12sp</dimen>
+
+    <integer-array name="fiveXarray">
+        <item>80</item>
+        <item>150</item>
+        <item>250</item>
+        <item>300</item>
+        <item>420</item>
+    </integer-array>
+    <integer-array name="fiveYarray">
+        <item>100</item>
+        <item>190</item>
+        <item>100</item>
+        <item>300</item>
+        <item>220</item>
+    </integer-array>
+
+    <!-- 缩放最终值 -->
+    <string name="scaletoY">0.8</string>
+
+    <dimen name="audience_op_text_size">10sp</dimen>
+
+    <!-- 送礼数量对话框的偏移 -->
+    <integer name="popupOffsetX">16</integer>
+
+    <dimen name="popuWindownWidth">100dp</dimen>
+
+    <integer name="popupOffsetY">135</integer>
+    <!-- 送礼接受者对话框的偏移 -->
+    <integer name="popup_receiver_OffsetX">59</integer>
+    <integer name="popup_receiver_OffsetY">135</integer>
+    <integer name="popup_receiver_tips_OffsetX">68</integer>
+    <integer name="popup_receiver_tips_OffsetY">130</integer>
+
+    <dimen name="popuWindownReceiverWidth">196dp</dimen>
+
+
+    <integer name="tips_width_height">10</integer>
+
+    <!-- 直播间公聊适配 -->
+    <integer name="live_chat_level_scale_x">10</integer>
+    <integer name="live_chat_level_scale_y">10</integer>
+    <integer name="live_chat_gif_scale_x">8</integer>
+    <integer name="live_chat_gif_scale_y">8</integer>
+    <integer name="live_chat_gift_scale_x">1</integer>
+    <integer name="live_chat_gift_scale_y">1</integer>
+    <integer name="live_rak_number_x">6</integer>
+    <integer name="live_rak_number_y">6</integer>
+
+    <!-- 直播间适配 -->
+    <dimen name="live_input_talk">14sp</dimen>
+    <dimen name="live_input_secrect">14sp</dimen>
+    <dimen name="live_input_edit">14sp</dimen>
+    <dimen name="live_input_send">14sp</dimen>
+    <dimen name="live_attend_status">10sp</dimen>
+    <dimen name="live_go_back">14sp</dimen>
+    <dimen name="live_gift_count">14sp</dimen>
+    <dimen name="live_login_bar_text">13sp</dimen>
+    <dimen name="live_login_bar_pading">7dp</dimen>
+    <dimen name="live_room_progress">80dp</dimen>
+    <dimen name="live_room_talker_select">4dp</dimen>
+    <dimen name="live_room_input_top">8dp</dimen>
+    <dimen name="live_select_gift_text_size">12sp</dimen>
+    <dimen name="live_list_mar_bottom">-8dp</dimen>
+    <!-- 摇一摇 -->
+    <!-- 直播间礼物 -->
+    <dimen name="live_gift_pop_w">168dp</dimen>
+    <dimen name="ll_gift_padding_top">6dp</dimen>
+    <dimen name="live_select_gift_text_content_size">12sp</dimen>
+    <!-- 直播间观众榜 -->
+    <dimen name="tv_audience_last">15sp</dimen>
+    <dimen name="tv_audience_cost">12sp</dimen>
+    <dimen name="live_audience_text_dimen">13sp</dimen>
+    <!-- 直播间宝盒 -->
+    <dimen name="live_box_ok">16sp</dimen>
+    <dimen name="live_box_textsize">12sp</dimen>
+    <!-- zuojia -->
+    <dimen name="mall_car_list_width_dimen">140dp</dimen>
+    <dimen name="mall_car_list_height_dimen">90dp</dimen>
+    <!-- 名人堂 -->
+    <dimen name="hall_fame_item_name_size">14sp</dimen>
+    <dimen name="hall_fame_item_state_size">13sp</dimen>
+
+    <!-- 直播间礼物 -->
+    <dimen name="more_item_padding">9dp</dimen>
+    <dimen name="live_btn_padding">2dp</dimen>
+
+    <integer name="car_buy_btn_padding">4</integer>
+
+    <dimen name="btn_midden_item_padding">5dp</dimen>
+
+    <!-- 快捷方式图片大小 -->
+    <integer name="desk_shutcut_icon_size">52</integer>
+
+    <!-- 礼物类别标题Width -->
+    <dimen name="gift_category_Width">65dp</dimen>
+
+
+    <integer name="same_city_pop_top">112</integer>
+
+    <!-- 关注动态界面，关注选中和关注全部按钮的宽度 -->
+    <dimen name="dynamic_selected_attend_btn_width">120dp</dimen>
+
+    <!-- 手机注册界面 -->
+    <!-- 距离头像高度 -->
+    <dimen name="sign_up_by_phone_margin_bottom">18dp</dimen>
+    <dimen name="sign_up_by_phone_bottom_text_height">40dp</dimen>
+
+    <!-- 我的档案界面 -->
+    <!-- 性别 -->
+    <dimen name="user_infor_gender_margin_left">70dp</dimen>
+    <dimen name="user_infor_gender_margin_left_man">20dp</dimen>
+
+    <!-- 免费礼物动画 -->
+    <integer name="free_gift_start_distance">50</integer>
+    <integer name="free_gift_end_distance">40</integer>
+
+    <!-- 直播大厅引导适配 -->
+    <dimen name="home_guide_marging_top">-8dp</dimen>
+    <dimen name="home_guide_marging_right">3dp</dimen>
+    <dimen name="home_guide_marging_bottom">120dp</dimen>
+
+    <!-- 直播间引导适配 -->
+    <dimen name="living_room_guide_marging_top">204dp</dimen>
+    <dimen name="living_room_guide_attend_marging_right">2dp</dimen>
+    <dimen name="living_room_guide_marging_bottom">0dp</dimen>
+    <dimen name="living_room_guide_marging_right">0dp</dimen>
+
+    <!-- 手机直播间引导适配 -->
+    <dimen name="phive_room_guide_top_marging_top">0dp</dimen>
+    <dimen name="phive_room_guide_top_marging_right">0dp</dimen>
+    <dimen name="phive_room_guide_top_marging_left">5dp</dimen>
+    <dimen name="phive_room_guide_bottom_marging_bottom">-2dp</dimen>
+    <dimen name="phive_room_guide_bottom_marging_right">1dp</dimen>
+
+
+    <!-- 我的档案手机输入文字大小 -->
+    <dimen name="edit_phone_size">11sp</dimen>
+
+    <!-- 积分兑换秀币界面，兑换按钮右边距 -->
+    <dimen name="excharge_margin">12dp</dimen>
+
+    <!-- 新人礼包 -->
+    <dimen name="pack_dialog_new_width">281dp</dimen>
+    <dimen name="pack_dialog_new_heigth">334dp</dimen>
+    <dimen name="pack_dialog_new_top">31dp</dimen>
+    <dimen name="pack_dialog_background_width">281dp</dimen>
+    <dimen name="pack_dialog_background_heigth">302dp</dimen>
+    <dimen name="pack_dialog_background_top">135dp</dimen>
+    <dimen name="pack_dialog_new_buy_width">223dp</dimen>
+    <dimen name="pack_dialog_new_buy_height">43dp</dimen>
+    <dimen name="pack_dialog_close_padding">7dp</dimen>
+
+    <!-- 帮会成员管理界面 -->
+    <dimen name="member_name_margin_right">80dp</dimen>
+
+    <!-- 砸蛋 -->
+    <dimen name="hit_egg_view_title_height">40dp</dimen>
+    <dimen name="hit_egg_view_tv_values_margintop">10dp</dimen>
+    <dimen name="hit_egg_view_egg_price">14sp</dimen>
+    <dimen name="hit_egg_view_egg_values">12sp</dimen>
+
+
+    <dimen name="live_audience_header_margin_buttom">2dp</dimen>
+
+    <!-- 喜欢界面中我的守护昵称与剩余时间的文字的间距 -->
+    <dimen name="like_guard_tv_time_margin_top">2dp</dimen>
+
+    <!-- 直播间头条礼物弹窗 Y 轴的距离 -->
+    <integer name="live_headlines_dialog_y_distance">24</integer>
+
+    <!-- 商城 TapPageIndicator 中字体的边距 -->
+    <integer name="market_tap_page_indicator_text_padding">10</integer>
+
+    <!-- 集结奖励 -->
+    <dimen name="family_mass_reward_box_circlePageIndicator_margin_top">12dp</dimen>
+    <dimen name="family_reward_margin">12dp</dimen>
+
+    <!-- 水果机弹窗 -->
+    <dimen name="live_fruit_game_width">280dp</dimen>
+    <dimen name="live_fruit_game_height">200dp</dimen>
+    <dimen name="live_fruit_game_single_bet_margin_top">5dp</dimen>
+    <dimen name="live_fruit_game_single_tv_margin_left">10dp</dimen>
+    <dimen name="live_fruit_game_iv_repeat_margin_y">8dp</dimen>
+    <dimen name="live_fruit_game_iv_repeat_margin_top">10dp</dimen>
+    <dimen name="live_fruit_game_ll_fruit_content_margin_top">5dp</dimen>
+    <dimen name="live_fruit_game_iv_single_bet_margin_right">0dp</dimen>
+    <dimen name="live_fruit_game_single_bet_to_right">10dp</dimen>
+
+    <!-- 靓号界面 -->
+    <dimen name="button_number_width">78dp</dimen>
+    <dimen name="button_number_height">30dp</dimen>
+    <dimen name="button_buy_width">62dp</dimen>
+    <dimen name="button_buy_height">24dp</dimen>
+    <dimen name="search_bottom_text_size">12sp</dimen>
+    <dimen name="privilege_introduce_tip_text_size">11sp</dimen>
+
+    <!-- <dimen name="market_vip_item_width">92dp</dimen>
+     <dimen name="market_vip_item_height">94dp</dimen>-->
+    <!--vip商城-->
+    <dimen name="iv_vip_margintop">10dp</dimen>
+    <dimen name="text_margin_top">6dp</dimen>
+    <dimen name="text_margin_bottom">5dp</dimen>
+
+    <!--直播文字输入提示适配-->
+    <dimen name="input_hint_tip">12dp</dimen>
+
+    <!--靓号-->
+    <dimen name="live_good_number_7">2dp</dimen>
+    <dimen name="live_good_number_5">0dp</dimen>
+
+    <!--我的特权 -->
+    <dimen name="privilege_margin_left_55dp">44dp</dimen>
+    <dimen name="privilege_margin_left_62dp">44dp</dimen>
+
+    <!--默认图片 -->
+    <dimen name="default_loading_margin_top_60">30dp</dimen>
+
+
+    <!-- 手机直播间弹幕 -->
+    <integer name="phive_danmu_item_shadow_offset">1</integer>
+    <integer name="phive_danmu_item_shadow_radiu">1</integer>
+
+    <!--任务系统 -->
+    <dimen name="task_list_item_height">64dp</dimen>
+    <dimen name="task_list_item_title_text_size">12sp</dimen>
+    <dimen name="task_list_item_coin_text_size">10sp</dimen>
+    <dimen name="task_list_item_icon_margin_0">8dp</dimen>
+
+    <!--改版商城适配 -->
+    <dimen name="market_vip_type_width">95dp</dimen>
+    <dimen name="market_vip_type_height">98dp</dimen>
+    <dimen name="market_vip_type_item_margin">4dp</dimen>
+    <dimen name="market_vip_type_icon_margin">65dp</dimen>
+    <dimen name="market_car_item_width">122dp</dimen>
+    <dimen name="market_car_item_height">155dp</dimen>
+    <dimen name="market_car_item_icon_width">92dp</dimen>
+    <dimen name="market_car_item_icon_height">56dp</dimen>
+    <dimen name="market_car_item_icon_margintop">6dp</dimen>
+    <dimen name="market_car_item_btn_width">45dp</dimen>
+    <dimen name="market_car_card_item_horizontalSpacing">6dp</dimen>
+    <dimen name="market_car_card_item_bottom_margin">2dp</dimen>
+
+
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="item_normal_rank_view_height">100dp</dimen>
+    <dimen name="pause_status_btn_m_b">50dp</dimen>
+    <dimen name="pause_status_tip_m_b">0dp</dimen>
+
+    <!--用户信息资料 -->
+    <dimen name="userinfo_edit_text_size">13sp</dimen>
+    <dimen name="userinfo_item_height">54dp</dimen>
+    <dimen name="userinfo_bind_phone_editext_width">158dp</dimen>
+    <dimen name="userinfo_bind_phone_editext_width_two">150dp</dimen>
+
+    <!--直播大厅购买vip弹框 -->
+    <dimen name="live_main_open_vip_dialog_margin">27dp</dimen>
+    <dimen name="live_main_open_vip_dialog_grid_vertical_spacing">10dp</dimen>
+    <dimen name="live_main_open_vip_dialog_grid_horizontal_spacing">31dp</dimen>
+    <dimen name="live_main_open_vip_dialog_grid_item_text_size">9sp</dimen>
+    <!--//中间状态大标题上边距-->
+    <dimen name="rotate_circle_status_top">54dp</dimen>
+    <!--中间状态圆圈上边距-->
+    <dimen name="rotate_circle_rcv_top">-2dp</dimen>
+    <!--手机直播间礼物选中状态 打钩的 左边距-->
+    <dimen name="gift_item_select_bg_left">65dp</dimen>
+    <!--手机直播间礼物-->
+    <dimen name="box_gift_view_price_top">3dp</dimen>
+    <!--下播界面头像大小-->
+    <dimen name="ending_view_avatar_size">70dp</dimen>
+    <!--下播界面提示标题上边距-->
+    <dimen name="ending_view_tip_top">6dp</dimen>
+    <!--手机直播间送礼面板 数量 父控件宽度-->
+    <dimen name="gift_box_v_count_w">50dp</dimen>
+    <!--手机直播间送礼面板 数量 父控件高度-->
+    <dimen name="gift_box_v_count_h">20dp</dimen>
+    <!--手机直播间送礼面板 数量 数字大小-->
+    <dimen name="gift_box_tv_count_text_size">8dp</dimen>
+    <!--手机直播间送礼面板 余额左边距-->
+    <dimen name="gift_box_tv_balance_left">113dp</dimen>
+    <dimen name="face_w">20dp</dimen>
+
+    <!-- 手机直播间 -->
+    <dimen name="phive_anchor_info_parent_height">46dp</dimen>
+    <dimen name="phive_anchor_info_width">120dp</dimen>
+    <dimen name="phive_anchor_info_height">35dp</dimen>
+    <dimen name="phive_anchor_info_picture_radiu">28dp</dimen>
+    <dimen name="phive_anchor_info_picture_margintop_and_bottom">1.5dp</dimen>
+    <dimen name="phive_anchor_info_nickname_size">9sp</dimen>
+    <dimen name="phive_anchor_info_nickname_margintop">4dp</dimen>
+    <dimen name="phive_anchor_info_btn_width">40dp</dimen>
+    <dimen name="phive_anchor_info_btn_height">12dp</dimen>
+    <dimen name="phive_anchor_info_btn_text_size">8sp</dimen>
+    <dimen name="phive_anchor_info_btn_text_margintop">3dp</dimen>
+    <dimen name="phive_anchor_info_btn_text_marginbottom">0dp</dimen>
+    <dimen name="phive_anchor_info_btn_text_marginright">8dp</dimen>
+    <dimen name="phive_anchor_info_number_text_size">8sp</dimen>
+    <dimen name="phive_anchor_info_number_text_marginbottom">4dp</dimen>
+    <dimen name="phive_anchor_info_number_text_marginleft">6dp</dimen>
+    <dimen name="phive_anchor_info_number_text_margintop">4dp</dimen>
+    <dimen name="phive_anchor_info_exit_btn_margintop">10dp</dimen>
+    <dimen name="phive_anchor_info_exit_fans_list_margintop">0dp</dimen>
+    <dimen name="phive_gift_ranking_list_picture_radiu">35dp</dimen>
+    <dimen name="phive_gift_ranking_list_nickname_text_size">13sp</dimen>
+    <dimen name="phive_audience_info_watch_btn_paddingright">8dp</dimen>
+    <dimen name="phive_list_default_text_tip_size">13sp</dimen>
+    <dimen name="phive_fans_list_picture_radiu">30dp</dimen>
+    <dimen name="phive_audience_info_widths">283dp</dimen>
+    <dimen name="phive_audience_info_padding_left_and_right">5dp</dimen>
+    <dimen name="phive_audience_nickname_text_size">13sp</dimen>
+    <dimen name="phive_audience_info_exprience_text_size">7dp</dimen>
+    <dimen name="tv_message_size">11dp</dimen>
+    <dimen name="tv_message_pb">4.5dp</dimen>
+    <dimen name="tv_message_pt">1.5dp</dimen>
+    <dimen name="tv_message_line_space">2.25dp</dimen>
+    <dimen name="tv_message_pl">7.5dp</dimen>
+    <dimen name="tv_message_pr">9dp</dimen>
+    <dimen name="aav_pl">15dp</dimen>
+    <dimen name="aav_text_size">9dp</dimen>
+    <dimen name="aav_width">144dp</dimen>
+    <dimen name="aav_ml">0dp</dimen>
+    <dimen name="aav_mt">46dp</dimen>
+    <dimen name="phive_menu_size">39dp</dimen>
+    <dimen name="phive_gift_shortcut_pd">9dp</dimen>
+    <dimen name="phive_candy_bmsize">@dimen/phive_menu_size</dimen>
+    <dimen name="phive_share_height">174dp</dimen>
+
+    <!-- 手机录制端 -->
+    <dimen name="phive_studio_anchor_info_picture_radiu">33dp</dimen>
+    <dimen name="phive_studio_anchor_info_height">40dp</dimen>
+    <dimen name="phive_studio_anchor_info_width">143dp</dimen>
+    <dimen name="phive_studio_anchor_info_marginleft">3dp</dimen>
+    <dimen name="phive_studio_anchor_info_picture_margintop_and_bottom">1.5dp</dimen>
+    <dimen name="phive_studio_anchor_info_time_title_margintop">6dp</dimen>
+    <dimen name="phive_studio_anchor_info_time_title_marginleft">8dp</dimen>
+    <dimen name="phive_studio_anchor_info_time_margintop">5dp</dimen>
+    <dimen name="phive_studio_anchor_info_time_title_text_size">8sp</dimen>
+    <dimen name="phive_studio_anchor_info_time_text_size">9sp</dimen>
+    <dimen name="phive_studio_anchor_info_exprience_radiu">13dp</dimen>
+    <dimen name="phive_studio_anchor_info_start_radiu">7dp</dimen>
+    <dimen name="phive_studio_anchor_info_kind_radiu">7.5dp</dimen>
+    <dimen name="phive_studio_anchor_info_king_margintop">0.5dp</dimen>
+    <dimen name="phive_studio_anchor_info_exprience_progress_width">66dp</dimen>
+    <dimen name="phive_studio_anchor_info_exprience_progress_text_size">4sp</dimen>
+    <dimen name="phive_studio_anchor_info_exprience_progress_marginleft">5dp</dimen>
+    <dimen name="phive_studio_anchor_info_relativelayout_margintop">5.2dp</dimen>
+    <dimen name="phive_studio_fans_parent_width">36dp</dimen>
+    <dimen name="phive_studio_fans_parent_height">38dp</dimen>
+    <dimen name="phive_studio_fans_picture_radiu">33dp</dimen>
+    <dimen name="phive_studio_activite_margintop">4dp</dimen>
+    <dimen name="phive_studio_knight_item_picture_border_width">1dp</dimen>
+    <dimen name="phive_studio_knight_item_picture_margintop">0dp</dimen>
+    <dimen name="phive_studio_knight_item_bottom_logo_marginbottom">0dp</dimen>
+    <dimen name="phive_studio_deployer_title">23sp</dimen>
+    <dimen name="phive_studio_deployer_title2">14sp</dimen>
+    <dimen name="phive_studio_deployer_title22">11sp</dimen>
+    <dimen name="phive_studio_deployer_talklv">13sp</dimen>
+    <dimen name="phive_studio_confirm_btn">15sp</dimen>
+    <dimen name="phive_studio_talk_mg">27dp</dimen>
+    <dimen name="phive_studio_deployer_input_heigh">100dp</dimen>
+    <dimen name="phive_studio_deployer_confirm_mt">61dp</dimen>
+    <dimen name="phive_studio_balance_title">25dp</dimen>
+    <dimen name="phive_studio_balance_subtitle">12sp</dimen>
+    <dimen name="phive_studio_balance_time">28dp</dimen>
+    <dimen name="phive_studio_balance_coin">23sp</dimen>
+    <dimen name="phive_studio_balance_title_mt">37dp</dimen>
+    <dimen name="phive_studio_balance_time_mt">33dp</dimen>
+    <dimen name="phive_studio_balance_confirm_mt">55dp</dimen>
+
+    <!-- 手机直播间暖场 -->
+    <dimen name="phive_bubble_size">33dp</dimen>
+
+    <!--pc开通骑士界面适配-->
+    <dimen name="live_open_knight_anchor_pic_marginright">0dp</dimen>
+    <dimen name="live_open_knight_user_pic_marginleft">20dp</dimen>
+
+    <!--欢饮界面 -->
+    <dimen name="loading_circle_parent_padding">130dp</dimen>
+    <dimen name="loading_circle_margin_top">-16dp</dimen>
+    <dimen name="welcome_parent_margintop">-32dp</dimen>
+    <dimen name="item_family_member_rank_tv_name_mt">-3dp</dimen>
+    <dimen name="family_member_rank_head_width">60dp</dimen>
+    <dimen name="family_member_rank_head_mt">12dp</dimen>
+    <dimen name="family_mass_reward_box_h">182.25dp</dimen>
+    <dimen name="family_mass_reward_box_w">180dp</dimen>
+    <dimen name="family_mass_reward_box_left_w">114dp</dimen>
+    <dimen name="family_mass_reward_box_img_w">76.5dp</dimen>
+    <dimen name="family_mass_reward_box_mt">33.75dp</dimen>
+    <dimen name="family_mass_reward_box_tv_bean_explian_mt">7.5dp</dimen>
+    <dimen name="family_mass_reward_box_explian_mt">6dp</dimen>
+    <dimen name="family_mass_reward_box_diamond_vip_text_size">9dp</dimen>
+    <dimen name="family_mass_reward_box_name_text_size">13.5dp</dimen>
+    <dimen name="family_mass_reward_box_tips_text_size">8.25dp</dimen>
+    <dimen name="coin_exchage_text_pt">3.75dp</dimen>
+
+    <!--我的特权-->
+    <dimen name="myprivilege_vip_item_marginright">8dp</dimen>
+    <dimen name="myprivilege_vip_item_paddingbottom">4dp</dimen>
+
+    <!--我的-->
+    <dimen name="mine_user_pic_shadow_radiu">81dp</dimen>
+    <dimen name="mine_user_pic_radiu">60dp</dimen>
+    <dimen name="mine_user_pic_marginleft">10.5dp</dimen>
+    <dimen name="mine_user_pic_margintop">6.5dp</dimen>
+    <dimen name="mine_user_name_text_size">18sp</dimen>
+    <dimen name="mine_user_name_margintop">4dp</dimen>
+    <dimen name="mine_user_id_margintop">12dp</dimen>
+    <dimen name="mine_user_sign_margintop">18dp</dimen>
+    <dimen name="other_user_info_top_background_height">132dp</dimen>
+    <dimen name="other_user_info_top_pic_margintop">108dp</dimen>
+
+    <!-- 星球大战 -->
+    <dimen name="game_star_weapon_start_guide_three_height">98dp</dimen>
+    <dimen name="game_star_weapon_start_guide_three_margintop">-5dp</dimen>
+    <dimen name="game_star_weapon_start_guide_three_marginleft">4dp</dimen>
+    <dimen name="game_star_weapon_start_guide_two_marginleft">16dp</dimen>
+    <dimen name="game_star_weapon_start_guide_two_margintop">1dp</dimen>
+    <dimen name="phive_paintor_mt">54dp</dimen>
+    <dimen name="game_star_weapon_radio_size">62dp</dimen>
+    <dimen name="game_star_weapon_name_txtsize">9dp</dimen>
+    <dimen name="game_star_weapon_power_txtsize">10dp</dimen>
+    <dimen name="game_star_weapon_btn_txtsize">12dp</dimen>
+    <dimen name="game_star_weapon_title_txtsize">11dp</dimen>
+
+    <!--一键注册-->
+    <dimen name="one_key_sign_code_edit_width">190dp</dimen>
+    <dimen name="one_key_sign_phone_sign_enter_marginbottom">28dp</dimen>
+    <dimen name="pc_gift_item_select_bg_left">65dp</dimen>
+</resources>

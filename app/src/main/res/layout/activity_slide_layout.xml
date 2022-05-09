@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+
+    <com.cold.projectanalysis.slidelayout.view.RelativeRootView
+        android:id="@+id/rl_helper1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:clickable="true"
+        android:background="#00000000">
+        <LinearLayout
+            android:id="@+id/llyt_test1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#7fff0000"
+            android:orientation="horizontal"
+            >
+
+        </LinearLayout>
+
+
+    </com.cold.projectanalysis.slidelayout.view.RelativeRootView>
+    <TextView
+        android:id="@+id/tv_test2"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:background="#ff0000ff"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:text="hello"
+        />
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        />
+</RelativeLayout>

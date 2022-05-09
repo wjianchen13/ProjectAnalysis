@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cold.mvvm.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="基础使用"
+        />
+    <Button
+        android:id="@+id/btn_list_bean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="列表数据"
+        />
+    <Button
+        android:id="@+id/btn_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ListView"
+        />
+
+    <Button
+        android:id="@+id/btn_include"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="存在include标签"
+        />
+
+    <Button
+        android:id="@+id/btn_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="GridView"
+        />
+</LinearLayout>

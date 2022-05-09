@@ -1,0 +1,12 @@
+<!DOCTYPE resources [
+    <!ENTITY testName "123698547">
+    <!ENTITY Wannoo "Hello">
+    ]>
+<resources>
+
+    <string name="app_name">homescreen &testName;</string>
+
+    <string name="test">test + @string/home</string>
+</resources>
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="viewid">
+        <attr name="control" format="string" />
+        <attr name="contentview" format="string" />
+        <attr name="slideview" format="string" />
+    </declare-styleable>
+
+</resources>

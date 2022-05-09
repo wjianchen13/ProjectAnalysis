@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/rl_exp_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.cold.pkview.old.LivePkView
+        android:id="@+id/live_pk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/live_pk"
+        android:gravity="center"
+        android:text="test"
+        />
+
+    <com.cold.pkview.mine.LivePkView
+        android:id="@+id/pk_mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn_test"
+         />
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/pk_mine"
+        android:gravity="center"
+        android:text="test pk 1"
+        />
+    <Button
+        android:id="@+id/btn_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/btn_test1"
+        android:gravity="center"
+        android:text="test pk 2"
+        />
+</RelativeLayout>

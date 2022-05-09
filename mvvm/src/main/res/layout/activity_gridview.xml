@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="adapter"
+            type="android.widget.BaseAdapter"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context="com.cold.mvvm.listview.ListViewActivity">
+
+            <include
+                android:id="@+id/rlyt_side"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/include_gridview" />
+
+        <!--所有的set方法都可以用app-->
+<!--        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="55dp"
+            android:layout_marginLeft="19dp"
+            android:gravity="center"
+            android:horizontalSpacing="12dp"
+            android:background="#999999"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="12dp"
+            android:padding="6dp"
+            android:listSelector="@android:color/transparent"
+            app:adapter="@{ adapter }"/>-->
+
+    </LinearLayout>
+</layout>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flyt_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_test1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test1"
+            android:text="测试1" />
+        <Button
+            android:id="@+id/btn_test2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test2"
+            android:text="测试2" />
+        <Button
+            android:id="@+id/btn_test3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test3"
+            android:text="测试3" />
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="stop"
+            android:text="停止" />
+        <Button
+            android:id="@+id/startfor0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startFor0"
+            android:text="从头开始" />
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test"
+            android:text="测试" />
+
+        <com.cold.marquee.ScrollTextView
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="marquee"
+            android:scrollHorizontally="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="  "
+            android:textColor="#000000"
+            android:background="#ffff0000"
+            android:textSize="14sp" />
+
+        <com.cold.marquee.ScrollTextView
+            android:id="@+id/test1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="marquee"
+            android:scrollHorizontally="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="  "
+            android:textColor="#000000"
+            android:background="#ffff0000"
+            android:textSize="14sp" />
+        <com.cold.marquee.StrokeTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+100"
+            android:textSize="16dp"
+            android:textColor="#ffff0000"
+            />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/fl_slideParent"
+        layout="@layout/view_live_chat_slide_level_2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center|bottom"
+        android:gravity="center_horizontal"
+        />
+
+
+</FrameLayout>

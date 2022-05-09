@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjectAnalysis.iml" filepath="$PROJECT_DIR$/ProjectAnalysis.iml" group="ProjectAnalysis" />
+      <module fileurl="file://$PROJECT_DIR$/activitytest/activitytest.iml" filepath="$PROJECT_DIR$/activitytest/activitytest.iml" group="ProjectAnalysis/activitytest" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ProjectAnalysis/app" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" group="ProjectAnalysis/dialog" />
+      <module fileurl="file://$PROJECT_DIR$/dialogfragment/dialogfragment.iml" filepath="$PROJECT_DIR$/dialogfragment/dialogfragment.iml" group="ProjectAnalysis/dialogfragment" />
+      <module fileurl="file://$PROJECT_DIR$/dialogfragment2/dialogfragment2.iml" filepath="$PROJECT_DIR$/dialogfragment2/dialogfragment2.iml" group="ProjectAnalysis/dialogfragment2" />
+      <module fileurl="file://$PROJECT_DIR$/file/file.iml" filepath="$PROJECT_DIR$/file/file.iml" group="ProjectAnalysis/file" />
+      <module fileurl="file://$PROJECT_DIR$/homescreen/homescreen.iml" filepath="$PROJECT_DIR$/homescreen/homescreen.iml" group="ProjectAnalysis/homescreen" />
+      <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" group="ProjectAnalysis/http" />
+      <module fileurl="file://$PROJECT_DIR$/layoutchange/layoutchange.iml" filepath="$PROJECT_DIR$/layoutchange/layoutchange.iml" group="ProjectAnalysis/layoutchange" />
+      <module fileurl="file://$PROJECT_DIR$/marquee/marquee.iml" filepath="$PROJECT_DIR$/marquee/marquee.iml" group="ProjectAnalysis/marquee" />
+      <module fileurl="file://$PROJECT_DIR$/marquee1/marquee1.iml" filepath="$PROJECT_DIR$/marquee1/marquee1.iml" group="ProjectAnalysis/marquee1" />
+      <module fileurl="file://$PROJECT_DIR$/marquee2/marquee2.iml" filepath="$PROJECT_DIR$/marquee2/marquee2.iml" group="ProjectAnalysis/marquee2" />
+      <module fileurl="file://$PROJECT_DIR$/marquee3/marquee3.iml" filepath="$PROJECT_DIR$/marquee3/marquee3.iml" group="ProjectAnalysis/marquee3" />
+      <module fileurl="file://$PROJECT_DIR$/marquee4/marquee4.iml" filepath="$PROJECT_DIR$/marquee4/marquee4.iml" group="ProjectAnalysis/marquee4" />
+      <module fileurl="file://$PROJECT_DIR$/marquee5/marquee5.iml" filepath="$PROJECT_DIR$/marquee5/marquee5.iml" group="ProjectAnalysis/marquee5" />
+      <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" group="ProjectAnalysis/message" />
+      <module fileurl="file://$PROJECT_DIR$/mvvm/mvvm.iml" filepath="$PROJECT_DIR$/mvvm/mvvm.iml" group="ProjectAnalysis/mvvm" />
+      <module fileurl="file://$PROJECT_DIR$/okhttp3/okhttp3.iml" filepath="$PROJECT_DIR$/okhttp3/okhttp3.iml" group="ProjectAnalysis/okhttp3" />
+      <module fileurl="file://$PROJECT_DIR$/pkview/pkview.iml" filepath="$PROJECT_DIR$/pkview/pkview.iml" group="ProjectAnalysis/pkview" />
+      <module fileurl="file://$PROJECT_DIR$/popupwindow/popupwindow.iml" filepath="$PROJECT_DIR$/popupwindow/popupwindow.iml" group="ProjectAnalysis/popupwindow" />
+      <module fileurl="file://$PROJECT_DIR$/pressview/pressview.iml" filepath="$PROJECT_DIR$/pressview/pressview.iml" group="ProjectAnalysis/pressview" />
+      <module fileurl="file://$PROJECT_DIR$/progressimageview/progressimageview.iml" filepath="$PROJECT_DIR$/progressimageview/progressimageview.iml" group="ProjectAnalysis/progressimageview" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" group="ProjectAnalysis/recyclerview" />
+      <module fileurl="file://$PROJECT_DIR$/slideview1/slideview1.iml" filepath="$PROJECT_DIR$/slideview1/slideview1.iml" group="ProjectAnalysis/slideview1" />
+      <module fileurl="file://$PROJECT_DIR$/slideview10/slideview10.iml" filepath="$PROJECT_DIR$/slideview10/slideview10.iml" group="ProjectAnalysis/slideview10" />
+      <module fileurl="file://$PROJECT_DIR$/slideview11/slideview11.iml" filepath="$PROJECT_DIR$/slideview11/slideview11.iml" group="ProjectAnalysis/slideview11" />
+      <module fileurl="file://$PROJECT_DIR$/slideview2/slideview2.iml" filepath="$PROJECT_DIR$/slideview2/slideview2.iml" group="ProjectAnalysis/slideview2" />
+      <module fileurl="file://$PROJECT_DIR$/slideview3/slideview3.iml" filepath="$PROJECT_DIR$/slideview3/slideview3.iml" group="ProjectAnalysis/slideview3" />
+      <module fileurl="file://$PROJECT_DIR$/slideview4/slideview4.iml" filepath="$PROJECT_DIR$/slideview4/slideview4.iml" group="ProjectAnalysis/slideview4" />
+      <module fileurl="file://$PROJECT_DIR$/slideview5/slideview5.iml" filepath="$PROJECT_DIR$/slideview5/slideview5.iml" group="ProjectAnalysis/slideview5" />
+      <module fileurl="file://$PROJECT_DIR$/slideview6/slideview6.iml" filepath="$PROJECT_DIR$/slideview6/slideview6.iml" group="ProjectAnalysis/slideview6" />
+      <module fileurl="file://$PROJECT_DIR$/slideview7/slideview7.iml" filepath="$PROJECT_DIR$/slideview7/slideview7.iml" group="ProjectAnalysis/slideview7" />
+      <module fileurl="file://$PROJECT_DIR$/slideview8/slideview8.iml" filepath="$PROJECT_DIR$/slideview8/slideview8.iml" group="ProjectAnalysis/slideview8" />
+      <module fileurl="file://$PROJECT_DIR$/slideview9/slideview9.iml" filepath="$PROJECT_DIR$/slideview9/slideview9.iml" group="ProjectAnalysis/slideview9" />
+      <module fileurl="file://$PROJECT_DIR$/spantest/spantest.iml" filepath="$PROJECT_DIR$/spantest/spantest.iml" group="ProjectAnalysis/spantest" />
+      <module fileurl="file://$PROJECT_DIR$/surfaceview/surfaceview.iml" filepath="$PROJECT_DIR$/surfaceview/surfaceview.iml" group="ProjectAnalysis/surfaceview" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" group="ProjectAnalysis/test" />
+      <module fileurl="file://$PROJECT_DIR$/webview/webview.iml" filepath="$PROJECT_DIR$/webview/webview.iml" group="ProjectAnalysis/webview" />
+      <module fileurl="file://$PROJECT_DIR$/x5demo/x5demo.iml" filepath="$PROJECT_DIR$/x5demo/x5demo.iml" group="ProjectAnalysis/x5demo" />
+      <module fileurl="file://$PROJECT_DIR$/x5webview/x5webview.iml" filepath="$PROJECT_DIR$/x5webview/x5webview.iml" group="ProjectAnalysis/x5webview" />
+    </modules>
+  </component>
+</project>

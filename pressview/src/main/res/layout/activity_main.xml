@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="16dp"
+        android:background="#999999"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="16dp"
+        android:padding="6dp"
+        android:listSelector="@android:color/transparent"
+        />
+    <!--<com.cold.pressview.widget.PressView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:clickable="true"
+        android:background="#5f0000ff"
+        >
+        <ImageView
+            android:id="@+id/imgv_text"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bg_image"
+            android:background="#ff000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgv_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="helloaaaaaaaaaaaaaaaaaa"
+            android:textColor="@drawable/bg_text"
+            />
+     </com.cold.pressview.widget.PressView>-->
+
+</RelativeLayout>

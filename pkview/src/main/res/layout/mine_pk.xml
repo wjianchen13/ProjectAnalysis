@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:background="@color/transparent">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="63dp"
+            android:layout_height="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:paddingBottom="1dp"
+            android:gravity="center"
+            android:background="@drawable/bg_time"
+            android:textSize="10dp"
+            android:textColor="#fffffefe"
+            android:text="5:30:00" />
+
+        <ImageView
+            android:id="@+id/imgv_top"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tv_time"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_live_pk_head"
+            android:src="@drawable/img_user_icon" />
+
+        <ProgressBar
+            android:id="@+id/pb_top"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/imgv_top"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/mine_pk_progress_left" />
+
+        <TextView
+            android:id="@+id/tv_fire_top"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/imgv_top"
+            android:layout_toRightOf="@id/iv_head_left"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:maxLines="1"
+            android:text="999999火力"
+            android:textColor="@color/pk_white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_fire_add_left"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/imgv_top"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:shadowColor="@color/pk_shadow"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:singleLine="true"
+            android:text="+9999"
+            android:textColor="@color/pk_fire"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_total_fire"
+            android:layout_width="48dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_vs"
+            android:layout_below="@+id/pb_top"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:id="@+id/imgv_bottom"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/iv_total_fire"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_live_pk_head"
+            android:src="@drawable/img_user_icon" />
+
+        <ProgressBar
+            android:id="@+id/pb_bottom"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/imgv_bottom"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/mine_pk_progress_right" />
+
+        <TextView
+            android:id="@+id/tv_fire_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/imgv_bottom"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:maxLines="1"
+            android:text="999999火力"
+            android:textColor="@color/pk_white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_fire_add_right"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/imgv_bottom"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:shadowColor="@color/pk_shadow"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:singleLine="true"
+            android:text="+9999"
+            android:textColor="@color/pk_fire"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgv_top_win"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/tv_fire_top"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_live_pk_head"
+            android:src="@drawable/bg_win" />
+        <ImageView
+            android:id="@+id/imgv_bottom_win"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/tv_fire_bottom"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_live_pk_head"
+            android:src="@drawable/bg_win" />
+    </RelativeLayout>
+</merge>

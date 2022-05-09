@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_test1"
+        >
+
+    </LinearLayout>
+
+    <com.cold.slideview2.SlidingLayout
+         android:layout_width="match_parent"
+         android:id="@+id/id_drawerlayout"
+         android:layout_height="match_parent"
+        >
+        <com.cold.slideview2.SlideContentLayout
+            android:id="@+id/id_container_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Horizontal"
+                android:textSize="18sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ff00ff00"
+                android:clickable="true"
+                android:focusable="true"
+                android:scrollbars="horizontal" />
+
+        </com.cold.slideview2.SlideContentLayout>
+        <LinearLayout
+            android:id="@+id/tv_test2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="#5f8a8888"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:orientation="horizontal"
+            />
+    </com.cold.slideview2.SlidingLayout>
+
+</RelativeLayout>

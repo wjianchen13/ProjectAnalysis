@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flyt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F4FF"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <HorizontalScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/sv"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#E1F4FF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:scrollbars="none">
+            <TextView
+                android:id="@+id/ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#ff00ff00"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="     aksdfjkaskjdf"/>
+
+        </HorizontalScrollView>
+        <TextView
+            android:id="@+id/tv_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/btn_test1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test1"
+            android:text="测试1" />
+        <Button
+            android:id="@+id/btn_test2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test2"
+            android:text="测试2" />
+        <Button
+            android:id="@+id/btn_test3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test3"
+            android:text="测试3" />
+        <Button
+            android:id="@+id/btn_test4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test4"
+            android:text="测试4" />
+        <Button
+            android:id="@+id/btn_test5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test5"
+            android:text="测试5" />
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="test"
+            android:text="测试" />
+    </LinearLayout>
+    <include
+        android:id="@+id/fl_slideParent"
+        layout="@layout/view_live_chat_slide_item"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="150dp"
+        android:layout_gravity="center|bottom"
+        />
+<!--    <ViewStub
+        android:id="@+id/vs_test"
+        layout="@layout/view_live_chat_slide_level_3"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="120dp"
+        android:layout_gravity="center|bottom"
+        android:gravity="center_horizontal" />-->
+
+
+</FrameLayout>

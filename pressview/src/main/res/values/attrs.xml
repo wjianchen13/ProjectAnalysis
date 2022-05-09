@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="attachid">
+        <attr name="imageid" format="integer" />
+        <attr name="textid" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitytest" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/dialog" />
+            <option value="$PROJECT_DIR$/dialogfragment" />
+            <option value="$PROJECT_DIR$/dialogfragment2" />
+            <option value="$PROJECT_DIR$/file" />
+            <option value="$PROJECT_DIR$/homescreen" />
+            <option value="$PROJECT_DIR$/http" />
+            <option value="$PROJECT_DIR$/layoutchange" />
+            <option value="$PROJECT_DIR$/marquee" />
+            <option value="$PROJECT_DIR$/marquee1" />
+            <option value="$PROJECT_DIR$/marquee2" />
+            <option value="$PROJECT_DIR$/marquee3" />
+            <option value="$PROJECT_DIR$/marquee4" />
+            <option value="$PROJECT_DIR$/marquee5" />
+            <option value="$PROJECT_DIR$/message" />
+            <option value="$PROJECT_DIR$/mvvm" />
+            <option value="$PROJECT_DIR$/okhttp3" />
+            <option value="$PROJECT_DIR$/pkview" />
+            <option value="$PROJECT_DIR$/popupwindow" />
+            <option value="$PROJECT_DIR$/pressview" />
+            <option value="$PROJECT_DIR$/progressimageview" />
+            <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/slideview1" />
+            <option value="$PROJECT_DIR$/slideview10" />
+            <option value="$PROJECT_DIR$/slideview11" />
+            <option value="$PROJECT_DIR$/slideview2" />
+            <option value="$PROJECT_DIR$/slideview3" />
+            <option value="$PROJECT_DIR$/slideview4" />
+            <option value="$PROJECT_DIR$/slideview5" />
+            <option value="$PROJECT_DIR$/slideview6" />
+            <option value="$PROJECT_DIR$/slideview7" />
+            <option value="$PROJECT_DIR$/slideview8" />
+            <option value="$PROJECT_DIR$/slideview9" />
+            <option value="$PROJECT_DIR$/spantest" />
+            <option value="$PROJECT_DIR$/surfaceview" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/webview" />
+            <option value="$PROJECT_DIR$/x5demo" />
+            <option value="$PROJECT_DIR$/x5webview" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

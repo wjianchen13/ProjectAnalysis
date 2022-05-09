@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:slide="http://schemas.android.com/apk/res-auto"
+    >
+    <data>
+        <variable
+            name="vm"
+            type="com.cold.slideview3.PcLiveViewModel" />
+        <variable
+            name="ctx"
+            type="com.cold.slideview3.SlidingLayoutActivity" />
+
+    </data>
+
+    <com.cold.slideview3.SlidingLayout
+        android:layout_width="match_parent"
+        android:id="@+id/id_drawerlayout"
+        android:layout_height="match_parent"
+        slide:contentview="id_container_menu"
+        slide:slideview="tv_test2"
+        >
+        <com.cold.slideview3.SlideContentLayout
+            android:id="@+id/id_container_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="cleanview"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Vertical"
+                android:textSize="18sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_vertical"
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:background="#ff00ff00"
+                android:scrollbars="vertical" />
+
+        </com.cold.slideview3.SlideContentLayout>
+        <LinearLayout
+            android:id="@+id/tv_test2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="#5f8a8888"
+            android:layout_alignParentRight="true"
+            android:tag="slideview"
+            android:clickable="true"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            />
+    </com.cold.slideview3.SlidingLayout>
+</layout>

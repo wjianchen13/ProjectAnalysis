@@ -1,0 +1,10 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlyt_hit"
+    android:layout_width="260dp"
+    android:layout_height="70dp">
+    <include
+        layout="@layout/view_live_chat_slide_item"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        />
+</FrameLayout>
